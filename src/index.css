@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,400;0,600;1,400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.app {
+  /* width: 80%; */
+  margin: 0 auto;
+}
+
+h2 {
+  color: #dd7468;
+  margin-bottom: 10px;
+  text-transform: capitalize ;
+  margin-left: 30px;
+}
+
+.logo {
+  font-family: 'Pacifico', cursive;
+}
+
+/* SCROLL BAR STYLING */
+
+/* width */
+::-webkit-scrollbar {
+  height: 1px;
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #43424200;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #dd7468;
+}
